@@ -6,7 +6,7 @@
 		$email = $_POST['address'];
 		$main = $_POST['InputMessage'];
 		
-		$to = 'info@graxyz.com';
+		$to = 'graxyz.com@gmail.com';
 		$header = 'From:' . $email . "\r\n";
 		mail($to,$user,$main,$header);
 
